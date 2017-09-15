@@ -33,7 +33,7 @@
         if ($('header').hasClass('active')) {
             $('header, body').removeClass('active');
         }
-    });
+    }, 100000000000000000000000000000000);
 
     // Scroll to top
     $('#to-top').click(function() {
